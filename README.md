@@ -58,7 +58,6 @@ your browser and click the green "Download" button in the upper right:
 
 <img src="images/download-button.png" alt="download button" style="width: 450px;">
 
-
 ## Authors
 
 EO Research team at Sinergise (<eoresearch@sinergise.com>).
