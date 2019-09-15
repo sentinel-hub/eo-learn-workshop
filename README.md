@@ -56,7 +56,7 @@ Otherwise, you can download the repository as a .zip file by heading over
 to the GitHub repository (https://github.com/sentinel-hub/norsc19-eo-learn-workshop) in
 your browser and click the green "Download" button in the upper right:
 
-<img src="images/download-button.png" alt="download button" style="width: 450px;">
+<img src="images/download-button.png" alt="download button" width="450">
 
 ## Authors
 
