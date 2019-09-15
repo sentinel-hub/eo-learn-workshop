@@ -48,13 +48,15 @@ conda activate eo-learn-workshop
 
 If you have git installed, you can get the tutorial materials by cloning this repo:
 
-    git clone https://github.com/sentinel-hub/norsc19-eo-learn-workshop.git
+```
+git clone https://github.com/sentinel-hub/norsc19-eo-learn-workshop.git
+```
 
 Otherwise, you can download the repository as a .zip file by heading over
 to the GitHub repository (https://github.com/sentinel-hub/norsc19-eo-learn-workshop) in
 your browser and click the green "Download" button in the upper right:
 
-![](images/download-button.png)
+<img src="images/download-button.png" alt="download button" style="width: 450px;">
 
 
 ## Authors
