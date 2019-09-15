@@ -23,11 +23,11 @@ During the workshop we will introduce the `eo-learn` framework, show examples of
 ## Installation notes
 
 
-**Follow the workshop with just your browser?** 
+**Follow the workshop with just your browser?**   
 You can use the "launch binder" link above at the top of this README, which will launch a notebook instance on Binder with all required libraries installed.
 
 
-**Work on your own computer?**
+**Work on your own computer?**  
 In case you have some time on your hands, and would like to work through the exercises on your machine, the minimal requirements are
 + eo-learn (please see [installation instructions](https://eo-learn.readthedocs.io/en/latest/install.html))
 + [jupyter](https://jupyter.org/install)
