@@ -2,6 +2,7 @@ name: eo-learn-workshop-environment
 channels:
   - conda-forge
 dependencies:
+- dot
 - numpy
 - rasterio
 - shapely
