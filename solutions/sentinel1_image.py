@@ -1,5 +1,6 @@
+
 # load sample eopatch
-eopatch = EOPatch.load('../data/sentinel1_sample/', lazy_loading=True)
+eopatch = EOPatch.load(EOPATCH_PATH, lazy_loading=True)
 
 # create task using data from sample eopatch
 reactiv = ReactivTask((FeatureType.DATA_TIMELESS, 'specle_variability'),
@@ -10,6 +11,4 @@ reactiv = ReactivTask((FeatureType.DATA_TIMELESS, 'specle_variability'),
 eopatch = reactiv.execute(eopatch)
 
 # plot the results
-from skimage import color
-plt.figure(figsize=(15,15))
-plt.imshow(color.hsv2rgb(eopatch[(FeatureType.DATA_TIMELESS, 'specle_variability')]))
+plot_results(eopatch[(FeatureType.DATA_TIMELESS, 'specle_variability')])
