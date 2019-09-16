@@ -3,9 +3,9 @@ bbox = BBox(bbox=[-5.996475, 35.706378, -5.285797, 36.157836], crs=CRS.WGS84).tr
 time_interval=('2018-01-01','2018-12-31')
 
 # tasks
-s1_task = S1IWWCSInput('IW_VV', resx='40m', resy='40m', orbit='descending', time_difference=datetime.timedelta(minutes=5))
+s1_task = S1IWWCSInput('IW_VV', resx='120m', resy='120m', orbit='descending', time_difference=datetime.timedelta(minutes=5))
 reactiv = ReactivTask((FeatureType.DATA_TIMELESS, 'specle_variability'),
-                      data_feature=(FeatureType.DATA, 'IW_VV'), 
+                      data_feature=(FeatureType.DATA, 'IW_VV'),
                       mask_feature=(FeatureType.MASK, 'IS_DATA'))
 
 # workflow
