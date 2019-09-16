@@ -4,7 +4,7 @@
 
 ## Abstract
 
-Extracting valuable information from satellite imagery is challenging primarily due to large amounts of data. On top of that there is a big lack of techniques allowing for automatic detection and extraction of complex patterns in such spatiotemporal data. Join us to see how we leverage [`eo-learn`](https://eo-learn.readthedocs.io/en/latest/) to obtain meaningful information from satellite data with just a few lines of Python code.
+Extracting valuable information from satellite imagery is challenging primarily due to large amounts of data. On top of that, there is a big lack of techniques allowing for automatic detection and extraction of complex patterns in such spatiotemporal data. Join us to see how we leverage [`eo-learn`](https://eo-learn.readthedocs.io/en/latest/) to obtain meaningful information from satellite data with just a few lines of Python code.
 
 
 ## Description
@@ -12,7 +12,7 @@ Extracting valuable information from satellite imagery is challenging primarily 
 
 The availability of open Earth observation (EO) data through the Copernicus and Landsat programs, as well as plethora of commercially available satellite imagery, represents an unprecedented resource for many EO applications, ranging from ocean and land use/land cover monitoring to disaster control, emergency services and humanitarian relief. Large amounts of such spatiotemporal data call for tools that are able to automatically extract complex patterns embedded inside.
 
-`eo-learn` is a collection of open source Python packages that have been developed to seamlessly access and process spatio-temporal satellite imagery in a timely and automatic manner. It makes extraction of valuable information from satellite imagery as easy as defining a sequence of operations to be performed on satellite imagery. It also encourages collaboration --- the tasks and workflows can be shared, thus allowing for community-driven ways to exploit EO data. 
+`eo-learn` is a collection of open source Python packages that have been developed to seamlessly access and process spatio-temporal satellite imagery in a timely and automatic manner. It makes the extraction of valuable information from satellite imagery as easy as defining a sequence of operations to be performed on satellite imagery. It also encourages collaboration --- the tasks and workflows can be shared, thus allowing for community-driven ways to exploit EO data.
 
 The `eo-learn` library acts as a bridge between the Earth Observation (EO)/Remote Sensing (RS) field and the Python ecosystem for data science and machine learning. It lowers the entry barrier to the field of RS for non-experts and simultaneously brings the state-of-the-art tools for computer vision, machine learning, and deep learning existing in Python ecosystem to remote sensing experts.
 
@@ -27,7 +27,7 @@ You can use the "launch binder" link above at the top of this README, which will
 
 
 **Work on your own computer?**  
-In case you have some time on your hands, and would like to work through the exercises on your machine, the minimal requirements are
+In case you have some time on your hands and would like to work through the exercises on your machine, the minimal requirements are
 + eo-learn (please see [installation instructions](https://eo-learn.readthedocs.io/en/latest/install.html))
 + [jupyter](https://jupyter.org/install)
 
@@ -60,4 +60,3 @@ your browser and click the green "Download" button in the upper right:
 ## Authors
 
 EO Research team at Sinergise (<eoresearch@sinergise.com>).
-
