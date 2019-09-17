@@ -11,3 +11,4 @@ dependencies:
 - lightgbm
 - pip:
   - eo-learn
+  - overpass
