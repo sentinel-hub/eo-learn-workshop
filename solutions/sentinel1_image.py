@@ -1,6 +1,5 @@
-
 # load sample eopatch
-eopatch = EOPatch.load(EOPATCH_PATH, lazy_loading=True)
+eopatch = EOPatch.load('../data/sentinel1_sample', lazy_loading=True)
 
 # create task using data from sample eopatch
 reactiv = ReactivTask((FeatureType.DATA_TIMELESS, 'speckle_variability'),
