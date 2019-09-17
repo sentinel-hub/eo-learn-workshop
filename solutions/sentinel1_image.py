@@ -3,7 +3,7 @@
 eopatch = EOPatch.load(EOPATCH_PATH, lazy_loading=True)
 
 # create task using data from sample eopatch
-reactiv = ReactivTask((FeatureType.DATA_TIMELESS, 'specle_variability'),
+reactiv = ReactivTask((FeatureType.DATA_TIMELESS, 'speckle_variability'),
                       data_feature=(FeatureType.DATA, 'IW_VV'),
                       mask_feature=(FeatureType.MASK, 'IS_DATA'))
 
@@ -11,4 +11,4 @@ reactiv = ReactivTask((FeatureType.DATA_TIMELESS, 'specle_variability'),
 eopatch = reactiv.execute(eopatch)
 
 # plot the results
-plot_results(eopatch[(FeatureType.DATA_TIMELESS, 'specle_variability')])
+plot_results(eopatch[(FeatureType.DATA_TIMELESS, 'speckle_variability')])
