@@ -94,15 +94,9 @@ ENV/
 # Rope project settings
 .ropeproject
 
-# mypy
-.mypy_cache/
-
-
 # IDE config
 .idea/
 
-# pytest
-.pytest_cache
-
-# output data
+# output folder
 outputs
+
