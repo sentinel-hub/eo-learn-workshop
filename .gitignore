@@ -94,26 +94,8 @@ ENV/
 # Rope project settings
 .ropeproject
 
-# mkdocs documentation
-/site
-
-# mypy
-.mypy_cache/
-
-# Test output folder
-/TestOutputs
-
 # IDE config
 .idea/
-
-# Files that Sphinx generates
-/docs/source/examples
-/docs/source/markdowns
-/docs/source/eotasks.rst
-
-# pytest
-.pytest_cache/
-features/.pytest_cache
 
 # output folder
 outputs
