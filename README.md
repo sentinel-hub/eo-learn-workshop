@@ -45,7 +45,7 @@ conda activate eo-learn-workshop
 
 **Note**: *We'd like to make this repository a "living" tutorial, so we will be updating the materials with the new versions and new functionalities of the `eo-learn` package. To update your local copy, you can download the latest version again, or do a `git pull` if you are using git.*
 
-If you have git installed, you can get the tutorial materials by cloning this repo:
+We are tryinIf you have git installed, you can get the tutorial materials by cloning this repo:
 
 ```
 git clone https://github.com/sentinel-hub/norsc19-eo-learn-workshop.git
@@ -56,6 +56,19 @@ to the GitHub repository (https://github.com/sentinel-hub/norsc19-eo-learn-works
 your browser and click the green "Download" button in the upper right:
 
 <img src="images/download-button.png" alt="download button" width="450">
+
+
+## Running the tutorial with your Sentinel Hub account
+
+**Note**: *During the workshop, we have provided a Sentinel-Hub account for the participants. If you are trying to run the tutorial by yourself, please follow these instructions.*
+
+It is possible to run the tutorial using your own Sentinel-Hub credentials. In order to do that, there are a few instructions you have to follow:
+
+* if you don't have a Sentinel Hub account, you can create a trial account for free [here](https://www.sentinel-hub.com/trial)
+* once you have the account set up, login to Sentinel Hub [Configurator](https://apps.sentinel-hub.com/configurator/). By default you will already have the default confoguration with an instance ID (alpha-numeric code of length 36). For these examples it is recommended that you create a new configuration ("Add new configuration") and set the configuration to be based on `eo-learn workshop template`. The configuration already contains all layers used in this workshop. 
+* insert the `instanceId` into the `introduction.ipynb` notebook, as shown here:
+<img src="images/instance_id.png" alt="your instance id goes here" width="550">
+
 
 ## Authors
 
