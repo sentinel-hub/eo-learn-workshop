@@ -1,13 +1,17 @@
-# load sample eopatch
-eopatch = EOPatch.load('../data/sentinel1_sample', lazy_loading=True)
 
-# create task using data from sample eopatch
-reactiv = ReactivTask((FeatureType.DATA_TIMELESS, 'speckle_variability'),
-                      data_feature=(FeatureType.DATA, 'IW_VV'),
-                      mask_feature=(FeatureType.MASK, 'IS_DATA'))
+# load a sample eopatch
+eopatch = EOPatch.load('../data/sentinel1_sample')
+
+# create a task using data from the eopatch
+reactiv_task = ReactivTask(
+    data_feature=(FeatureType.DATA, 'IW_VV'),
+    mask_feature=(FeatureType.MASK, 'IS_DATA'),
+    reactiv_feature=(FeatureType.DATA_TIMELESS, 'speckle_variability')
+)
 
 # run the task
-eopatch = reactiv.execute(eopatch)
+eopatch = reactiv_task.execute(eopatch)
 
 # plot the results
-plot_results(eopatch[(FeatureType.DATA_TIMELESS, 'speckle_variability')])
+image = eopatch[(FeatureType.DATA_TIMELESS, 'speckle_variability')]
+plot_results(image)
